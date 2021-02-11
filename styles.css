@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300.400');
+
+*{
+	box-sizing: border-box;
+	font-family:Raleway;
+	color:#777;
+}
+
+html, body{
+	margin:0;
+}
+
+.nav ul{
+	margin:0;
+}
+
+.nav li{
+	display:inline;
+}
+
+.nav a{
+	display:inline-block;
+	padding:0.5em;
+	color:white;
+	text-decoration:none;
+}
+
+.nav a:hover{
+	background-color:rgba(255, 255, 255, .3);
+}
+
+.main-nav{
+	text-align:center;
+	font-size:1.1em;
+	font-weight:lighter;
+}
+
+.main-nav li{
+	padding: 0 5%;
+}
+
+.main-header{
+	background-image:url('smoke.jpeg');
+	background-size:cover;
+}
+
+.page-title{
+	text-align:center;
+	margin:0;
+	font-size:4em;
+	color:white;
+	font-weight:bold;
+	padding-top:10px;
+}
+
+.content-section{
+	margin:0em;
+}
+
+.container{
+	max-width:900px;
+	margin:0 auto;
+	padding:0 1.5em;
+}
+
+.section-header{
+	color:#FF4500;
+	text-align:center;
+	font-size:3.5em;
+	font-family:Brush Script MT;
+	margin:0;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+}
+
+.intro-header{
+	color:tomato;
+	text-align:center;
+	font-size:1.5em;
+	margin:0;
+	padding-bottom:0.5em;
+}
+
+.main-footer{
+	background-color:rgb(255,160,122, .15);
+	color:white;
+	padding-top:0.1em;
+	padding-bottom:.25;
+}
+
+.main-footer-container{
+	display:flex;
+	align-items:center;
+
+}
+
+.main-footer-container ul{
+	flex-grow:1;
+	text-align:left;
+}
+
+.main-footer li{
+	padding: 0.5em;
+}
+
+.main-footer img{
+	width:50px;
+	height:50px;
+}
+
+.main-footer h3{
+	font-size:1em;
+	font-weight:lighter;
+	text-align:center;
+	color:#FF4500;
+	margin:0 0 1% 35%;
+}
+
+.education-row{
+	border-bottom: 1px solid black;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+}
+
+.education-row:last-child{
+	border-bottom: none;
+}
+
+.education-item{
+	display:inline-block;
+	padding-right: 0.5em;
+}
+
+.qualification-type{
+	color:#ff3300;
+	font-weight:bold;
+	width:25%;
+}
+
+.qualification-subject{
+	width:32%;
+	color:deeppink;
+}
+
+.qualification-grade{
+	width:16%;
+	color:deepskyblue;
+}
+
+.qualification-school{
+	width:21%;
+	color:#0033cc;
+}
+
+.text-one{
+	color:deeppink;
+}
+
+.about-me-item{
+	margin:30px;
+	display:flex;
+	flex-wrap:wrap;
+	width:100%;
+}
+
+.about-me-image{
+	width:250px;
+	height:250px;
+	margin-bottom:2.5em;
+	margin-right:2em;
+	justify-content:space-around;
+	display:center;
+}
+
+.about-me-title{
+	text-align:center;
+	font-weight:bold;
+	font-size:1.1em;
+	display:block;
+	padding-bottom:5px;
+	color:tomato;
+	padding-right:20px;
+}
+
+.experience-date{
+	font-weight:900;
+	color:darkred;
+	padding-bottom:10px;
+	padding-top:8px;
+}
+
+.experience-company{
+	padding-bottom:10px;
+	font-weight:500;
+	color:firebrick;
+}
+
+.experience-title{
+	padding-bottom:22px;
+	font-style:italic;
+	font-weight:lighter;
+	color:indianred;
+}
+
+.experience-description{
+	color:lightcoral;
+	padding-bottom:20px;
+}
+
+.home-link{
+	text-decoration:none;
+	color:rgba(255,99,71);
+}
+
+.home-link:hover{
+	background-color:rgba(255,99,71,.2);
+}
+
+.education-header{
+	padding-bottom:1.2em;
+}
+
+.work-experience-header{
+	padding-bottom:0.75em;
+}
+
+.contact-main a{
+	text-decoration: none;
+}
+
+.contact-main a:hover{
+	background-color:rgba(255,99,71,.15);
+}
+
+.contact-main{
+	text-align:center;
+}
+
+.contact-row{
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+}
+
+.contact-item{
+	display:inline-block;
+	padding-right: 0.5em;
+}
+
+.contact-title{
+	font-weight:bold;
+	width:30%;
+}
+
+.contact-answer{
+	width:36%;
+	font-weight:lighter;
+}
+
+.contact-extra{
+	width:30%;
+}
+
+.address{
+	margin-top:1.5em;
+}
